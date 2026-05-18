@@ -16,7 +16,7 @@ import Contacts from "../Contacts/Contacs";
 import SignIn from "../Sign-in/Sign-in";
 import SignUp from "../Sign-up/Sign-up";
 import Bloging from "../Blog/Blog";
-import AboutPage from "../About/AboutPage";
+// import AboutPage from "../About/AboutPage";
 export function Home() {
     return (
         <div>
