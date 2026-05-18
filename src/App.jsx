@@ -7,7 +7,7 @@ import Page from './pages/course/Course.jsx';
 import List from './pages/list/List.jsx';
 import EventsGrid from './pages/View/View.jsx';
 import SignIn from './pages/Sign-in/Sign-in.jsx';
-import AboutPage from './pages/About/AboutPage.jsx';
+// import AboutPage from './pages/About/AboutPage.jsx';
 import Contacts from './pages/Contacts/Contacs.jsx';
 import Bloging from './pages/Blog/Blog.jsx';
 import SignUp from './pages/Sign-up/Sign-up.jsx';
