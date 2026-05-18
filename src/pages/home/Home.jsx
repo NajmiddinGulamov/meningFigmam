@@ -16,7 +16,7 @@ import Contacts from "../Contacts/Contacs";
 import SignIn from "../Sign-in/Sign-in";
 import SignUp from "../Sign-up/Sign-up";
 import Bloging from "../Blog/Blog";
-import AboutPage from "../About/About";
+// import AboutPage from "../About/About";
 export function Home() {
     return (
         <div>
@@ -38,7 +38,7 @@ export function Home() {
             <SignIn/>
             <SignUp/>
             <Bloging/>
-            <AboutPage/>
+            {/* <AboutPage/> */}
         </div>
     )
 }

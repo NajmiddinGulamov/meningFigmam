@@ -1,7 +1,7 @@
 import "./about.css"
 import LogoImg from "../../assets/logo.png"
 import GirlImg from "../../assets/again.png"
-import PlayImg from "../../assets/play.png"
+// import PlayImg from "../../assets/play.png"
 import Img from "../../assets/image.png"
 import BoxesImg from "../../assets/icon-boxes.png"
 import LightImg from "../../assets/light.png"
@@ -34,7 +34,7 @@ function AboutPage() {
             </div>
             <div className="part-time-play">
                 <p>Watch Video</p>
-                <img src={PlayImg} alt="" />
+                {/* <img src={PlayImg} alt="" /> */}
             </div>
             <img src={Img} alt="" />
             <div className="texts-of-guarend">
