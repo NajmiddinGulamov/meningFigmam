@@ -1,0 +1,211 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.courses {
+    display: flex;
+    gap: 659px;
+}
+.courses>button {
+    color: #FB4B25;
+    cursor: pointer;
+    background-color: #FFFFFF;
+    width: 202px;
+    height: 52px;
+    border-radius: 5px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+.prise{
+    color: #FF5959;
+    cursor: pointer;
+}
+.prise>a{
+    color: #787A80;
+}
+.management-btn{
+    background-color: #5A87FC;
+    cursor: pointer;
+    width: 97px;
+    height: 23px;
+    border-radius: 4px;
+    top: 1px;
+    right: 8px;
+    bottom: 1px;
+    left: 8px;
+    color: #FFFFFF;
+}
+.market-btn{
+    background-color: #03CEA4;
+    cursor: pointer;
+    width: 80px;
+    height: 23px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    margin-top: 1px;
+    right: 8px;
+    bottom: 1px;
+    left: 8px;
+    color: #EFFCF9;
+}
+.cheap{
+    color: #FB4B25;
+    cursor: pointer;
+}
+.cheap>a{
+    color: #787A80;
+}
+.third-person-btn{
+    background-color: #F3972D;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.button-person{
+    color: #FF4242;
+    cursor: pointer;
+}
+.button-person a{
+    color: #787A80;
+}
+.marketing{
+    background-color: #10C9A3;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 80px;
+    height: 23px;
+}
+.dollar{
+    color: #FF4242;
+    cursor: pointer;
+}
+.dollar a{
+    color: #787A80;
+}
+.girl-button{
+    background-color: #5D88F8;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.butn{
+    color: #FF4242;
+    cursor: pointer;
+}
+.butn a {
+    color: #787A80;
+}
+.design{
+    background-color: #F03370;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 70px;
+    height: 20px;
+}
+.style{
+    color: #FF4242;
+    cursor: pointer;
+}
+.style a {
+    color: #787A80;
+}
+
+
+
+.begin-figma {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 0 20px;
+}
+
+.begin-figma h5 {
+    color: #1E212C;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+}
+
+.courses {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.courses h2 {
+    font-size: 40px;
+    color: #1E212C;
+}
+
+.courses button {
+    color: #FF4242;
+    background: transparent;
+    border: 1px solid #FF4242;
+    padding: 10px 28px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.first-person, .second-person, .third-person, .girl, .girl-1, .man {
+    display: flex;
+    align-items: center;
+    width: calc(50% - 15px);
+    border: 1px solid #E5E8ED;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+}
+
+.people img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    background-color: #FFCF2D; 
+}
+
+
+.people > div {
+    padding: 20px;
+    display: block; 
+}
+
+.people h2 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #1E212C;
+}
+
+.people button {
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #fff;
+}
+
+.market-btn, .marketing { background-color: #03CEA4; }
+.management-btn, .girl-button { background-color: #5A87FC; }
+.third-person-btn { background-color: #F3972D; }
+.design { background-color: #F03370; }
+
+.prise, .cheap, .button-person, .dollar, .butn, .style {
+    font-weight: bold;
+    color: #FF4242;
+}
+
+.people p a {
+    color: #787A80;
+    font-weight: normal;
+    text-decoration: none;
+    margin-left: 5px;
+}

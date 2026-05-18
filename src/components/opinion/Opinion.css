@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.opinion-section {
+  background-color: #F4F5F7;
+  padding: 100px 0;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.opinion-header p {
+  font-weight: 700;
+  color: #1E212C;
+  letter-spacing: 1px;
+}
+
+.opinion-header h1 {
+  font-size: 46px;
+  color: #1E212C;
+  margin: 10px 0 60px;
+}
+
+.opinion-wrapper {
+  position: relative;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.opinion-card {
+  background: #fff;
+  padding: 64px 100px;
+  border-radius: 4px;
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+  text-align: left;
+  position: relative;
+}
+
+.quote-icon {
+  font-size: 80px;
+  color: #FF3F3A;
+  opacity: 0.6;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  font-family: serif;
+}
+
+.opinion-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #424551;
+  margin-bottom: 24px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.author img {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+}
+
+.author-info strong {
+  display: block;
+  font-size: 16px;
+  color: #1E212C;
+}
+
+.author-info span {
+  font-size: 14px;
+  color: #787A80;
+}
+
+.next-btn {
+  width: 48px;
+  height: 48px;
+  background-color: #FF3F3A;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  position: absolute;
+  right: -24px;
+}

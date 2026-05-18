@@ -1,0 +1,110 @@
+.workshop-page {
+    background-color: #fef0ed;
+    width: 100%;
+    padding: 80px 0;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.top-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.top-title p {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.top-title h1 {
+    font-size: 46px;
+    color: #1E212C;
+}
+
+.events-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.event-row {
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 32px 40px;
+    border-radius: 4px;
+}
+
+.date {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 200px;
+}
+
+.date h2 {
+    font-size: 48px;
+    color: #FF3F3A;
+}
+
+.date p {
+    color: #787A80;
+    font-size: 14px;
+}
+
+.red {
+    color: #FF3F3A;
+}
+
+.info {
+    padding: 0 40px;
+}
+
+.info h4 {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.info span {
+    color: #787A80;
+    font-size: 14px;
+}
+
+.view-btn {
+    border: 1px solid #FF3F3A;
+    color: #FF3F3A;
+    background: none;
+    padding: 12px 32px;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.view-btn.filled {
+    background: #FF3F3A;
+    color: #fff;
+}
+
+.bottom-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 80px;
+}
+
+.all-events-btn {
+    background-color: #FB4B25;
+    color: #fff;
+    border: none;
+    padding: 16px 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+}

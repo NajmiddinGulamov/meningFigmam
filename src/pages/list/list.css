@@ -1,0 +1,145 @@
+.events-list-page {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1230px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.list-heading {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.subtitle {
+  display: block;
+  font-weight: 700;
+  font-size: 16px;
+  color: #1e212c;
+  margin-bottom: 8px;
+}
+
+
+.events-items-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.event-single-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border: 1px solid #e5e8ed;
+  border-radius: 4px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.active-row {
+  box-shadow: 0px 80px 80px -20px rgba(154, 156, 165, 0.08);
+}
+
+.date-area {
+  display: flex;
+  align-items: center;
+  min-width: 220px;
+}
+
+.day-num {
+  font-weight: 900;
+  font-size: 48px;
+  color: #ff3f3a;
+  line-height: 1;
+  margin-right: 20px;
+}
+
+.month-name {
+  display: block;
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e212c;
+}
+
+.event-hour {
+  font-size: 16px;
+  color: #787a80;
+}
+
+.text-area {
+  flex: 1;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.text-area h4 {
+  font-weight: 700;
+  font-size: 20px;
+  color: #1e212c;
+  margin-top: 0;
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+.text-area p {
+  font-size: 16px;
+  color: #787a80;
+  margin: 0;
+}
+
+.btn-view-outline {
+  height: 44px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: transparent;
+  color: #ff3f3a;
+  border: 1px solid #ff3f3a;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-view-solid {
+  height: 44px;
+  padding-left: 32px;
+  padding-right: 32px;
+  background-color: #FF3F3A;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pagination {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.page-num {
+  font-weight: 700;
+  font-size: 16px;
+  color: #424551;
+  cursor: pointer;
+}
+
+
+.page-arrow {
+  font-weight: 700;
+  font-size: 16px;
+  color: #424551;
+  cursor: pointer;
+}

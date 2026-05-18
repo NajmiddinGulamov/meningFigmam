@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.cert-section {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.cert-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 60px;
+}
+
+.cert-content {
+  flex: 1;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  color: #1E212C;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.cert-content h1 {
+  font-size: 46px;
+  line-height: 1.2;
+  color: #1E212C;
+  margin-bottom: 25px;
+}
+
+.desc {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #787A80;
+}
+
+.cert-image {
+  flex: 1;
+}
+
+.cert-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}

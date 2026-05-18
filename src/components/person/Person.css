@@ -1,0 +1,52 @@
+.start {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 10%;
+}
+
+.start img {
+    width: 600px;
+    height: auto;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-side>h5 {
+    font-weight: 700;
+    color: #1E212C;
+}
+
+.right-side h3 {
+    color: #1E212C;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.texts h5 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #595C67;
+    display: flex;
+}
+
+.texts h5 {
+    color: #424551;
+}
+
+.texts button {
+    background: #FA501A;
+    color: #fff;
+    padding: 15px 40px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+ 

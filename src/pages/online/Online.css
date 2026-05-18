@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1230px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.main-header {
+  width: 100%;
+  height: 80px;
+  background-color: #fff; 
+  display: flex;
+  align-items: center;
+}
+
+.header-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.site-logo {
+  height: 22px;
+  display: block;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav ul li a {
+  text-decoration: none;
+  color: #424551;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.header-btn {
+  color: #fff;
+  background-color: #FC4928;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+
+.user-auth {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.auth-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #424551;
+}
+
+.user-icon {
+  font-size: 18px;
+}
+
+.enjoy{
+  align-items: center;
+  justify-content: center;
+}
+.our{
+  text-align: center;
+}
+.part-time > h4{
+  text-align: center;
+  justify-content: center;
+}
+.section{
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+}
+.input{
+  width: 315px;
+  height: 30px;
+  top: 305px;
+  border-radius: 4px;
+  border: 1px solid #D7DADD;
+}
+.section{
+  color: #424551;
+  cursor: pointer;
+}
+.load{
+  color: #434653;
+}
+.footer-1{
+  display: flex;
+  justify-content: center;
+}

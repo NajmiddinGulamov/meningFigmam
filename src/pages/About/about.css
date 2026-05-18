@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.figma{
+    display: flex;
+    text-align: center;
+    gap: 60px;
+    justify-content: center;
+    padding: 9px;
+    margin-bottom: 10px;
+}
+.figma > img {
+    width: 130px;
+    height: 22px;
+}
+.figma > button{
+   width: 207px;
+   height: 52px;
+   border-radius: 4px;
+   padding-left: 40px;
+   padding-left: 40px;
+   text-align: center;
+}
+.part-time-play{
+    display: flex;
+}
+.texts-of-guarend{
+    cursor: pointer;
+}
+.texts-of-guarend > p  {
+    color: #FF3F3A;
+}
+.texts-of-guarend > p > a{
+    color: #1E212C;
+}
